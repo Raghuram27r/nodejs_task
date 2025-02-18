@@ -16,7 +16,7 @@ const server = http.createServer((req, res)=>{
     res.write("hello world")
     res.end("")
 })
-server.listen("3101","192.168.239.44",()=>{
+server.listen("3101",()=>{
     console.log("server is running")
 
 })
